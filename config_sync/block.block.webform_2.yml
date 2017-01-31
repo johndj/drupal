@@ -1,4 +1,4 @@
-uuid: b693534c-0230-45ed-b379-10a4afb1a36a
+uuid: d645a5a8-780e-43ed-80eb-0a50f59cf121
 langcode: fr
 status: true
 dependencies:
@@ -10,12 +10,12 @@ dependencies:
 id: webform_2
 theme: myadminimal_theme
 region: content
-weight: -5
+weight: -1
 provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: 'Contct Form'
+  label: 'Contacter l''agence'
   provider: webform
   label_display: visible
   webform_id: contact

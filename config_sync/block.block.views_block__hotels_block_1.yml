@@ -1,4 +1,4 @@
-uuid: 652aa9d9-94e2-4cd7-96e3-72995a121956
+uuid: 46ffdd36-7d6e-46a2-b674-19987797ba11
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
 id: views_block__hotels_block_1
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -12
 provider: null
 plugin: 'views_block:hotels-block_1'
 settings:

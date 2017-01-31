@@ -1,4 +1,4 @@
-uuid: 62e8626a-1a06-4e44-b93b-90803257017c
+uuid: 54dad677-6f68-4b51-b3ce-2c7d79881c34
 langcode: fr
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - test@gmail.com
+  - hugo.lopez.90@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

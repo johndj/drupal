@@ -1,12 +1,12 @@
-uuid: 1523746e-a89d-455a-8737-888784a743f4
-langcode: en
+uuid: ff336cf9-d3b7-4b3b-a07e-9282f4b8d796
+langcode: fr
 status: true
 dependencies: {  }
 name: hotel_wide
-label: 'Hotel wide'
+label: 'Hotel Wide'
 effects:
-  7f5f8733-15ec-4261-b209-da3dee0cb856:
-    uuid: 7f5f8733-15ec-4261-b209-da3dee0cb856
+  460e7508-ccce-467e-9dcf-115afc1b8f00:
+    uuid: 460e7508-ccce-467e-9dcf-115afc1b8f00
     id: image_scale
     weight: 1
     data:

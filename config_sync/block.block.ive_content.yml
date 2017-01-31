@@ -1,4 +1,4 @@
-uuid: c94f4fce-1a0f-4bc2-bd81-dd1b6ab16a7d
+uuid: 1a352110-04bf-480a-81b4-b7e00c23816d
 langcode: fr
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: ive_content
 theme: ive
 region: content
-weight: -5
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

@@ -1,4 +1,4 @@
-uuid: d0ec8b91-2c4c-4d63-b6fa-c53ae245a3c3
+uuid: e0f69c41-c4a6-4848-bbd7-90f6dc4296f7
 langcode: fr
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: swNN6nPoQN5RAcE4JkwrQXWzOpeDxavXNCnNaIB46WI
 id: media
-label: Media
+label: Média
 module: views
 description: ''
 tag: ''
@@ -22,7 +22,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Maître
     position: 0
     display_options:
       access:
@@ -43,10 +43,10 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Appliquer
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -59,12 +59,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Éléments par page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
             items_per_page_options_all_label: '- Tout -'
             offset: false
-            offset_label: Offset
+            offset_label: Décalage
           tags:
             previous: '‹ Previous'
             next: 'Next ›'
@@ -387,7 +387,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Statut
           exclude: false
           alter:
             alter_text: false
@@ -750,7 +750,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Media
+      title: Média
       header: {  }
       footer: {  }
       empty:
@@ -780,14 +780,14 @@ display:
   media_page_list:
     display_plugin: page
     id: media_page_list
-    display_title: Media
+    display_title: Média
     position: 1
     display_options:
       display_extenders: {  }
       path: admin/content/media
       menu:
         type: tab
-        title: Media
+        title: Média
         description: ''
         expanded: false
         parent: ''

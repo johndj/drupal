@@ -1,4 +1,4 @@
-uuid: fcc28a2a-738c-4cb2-81be-c900ad94679e
+uuid: d88160ed-fa0e-4997-a2c8-b8367ed7f619
 langcode: fr
 status: true
 dependencies:
@@ -19,6 +19,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Activé
+  off_label: Désactivé
 field_type: boolean
