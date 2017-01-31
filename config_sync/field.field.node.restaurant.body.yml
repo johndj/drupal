@@ -1,4 +1,4 @@
-uuid: 840667be-7504-4829-9d18-a8e5426e0528
+uuid: 855eca7c-53e2-4a6f-8439-6e6657f68963
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: restaurant
 label: Body
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

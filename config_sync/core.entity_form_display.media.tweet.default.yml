@@ -1,11 +1,13 @@
-uuid: 2287b35c-14bb-4bbc-a3f4-aa2965c6c4d4
+uuid: 70e815bc-04a9-4d61-a675-575b0ab804aa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.tweet.field_restaurant
-    - field.field.media.tweet.field_tag_media
+    - field.field.media.tweet.field_media
+    - field.field.media.tweet.field_twit
     - media_entity.bundle.tweet
+  module:
+    - link
 id: media.tweet.default
 targetEntityType: media
 bundle: tweet
@@ -16,15 +18,7 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field_restaurant:
-    weight: 11
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-  field_tag_media:
+  field_media:
     weight: 12
     settings:
       match_operator: CONTAINS
@@ -32,6 +26,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+  field_twit:
+    weight: 11
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
   langcode:
     type: language_select
     weight: 2

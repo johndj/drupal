@@ -1,4 +1,4 @@
-uuid: 45ea96eb-73c2-40c3-b7b8-c4b34d30f801
+uuid: 1a1ebe31-8307-4f04-b9de-33a9da2681d0
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ new_revision: false
 type_configuration:
   use_twitter_api: false
   generate_thumbnails: false
-  source_field: ''
+  source_field: field_twit
   consumer_key: ''
   consumer_secret: ''
   oauth_access_token: ''

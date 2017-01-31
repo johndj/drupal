@@ -1,4 +1,4 @@
-uuid: af7b8b05-169a-413f-aac2-0693b27fa2f4
+uuid: 1edc0d92-9e8c-42f8-8f85-e9a270ce8e87
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,6 @@ name: Restaurant
 type: restaurant
 description: ''
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: true

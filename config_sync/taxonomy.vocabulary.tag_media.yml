@@ -1,9 +1,0 @@
-uuid: 40bf64d4-0268-43cf-aaf8-b53b3291c209
-langcode: en
-status: true
-dependencies: {  }
-name: 'Tag media'
-vid: tag_media
-description: 'Free tagging for media'
-hierarchy: 0
-weight: 0

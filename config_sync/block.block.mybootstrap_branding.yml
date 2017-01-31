@@ -1,8 +1,9 @@
-uuid: 5bb95400-710b-4d3b-b841-893fdb44740b
+uuid: 821622fe-faff-4b05-8c27-1c88fbdacf1c
 langcode: fr
 status: true
 dependencies:
   module:
+    - block_visibility_groups
     - system
   theme:
     - mybootstrap
@@ -11,7 +12,7 @@ _core:
 id: mybootstrap_branding
 theme: mybootstrap
 region: header
-weight: -11
+weight: -14
 provider: null
 plugin: system_branding_block
 settings:
@@ -22,4 +23,14 @@ settings:
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /hotels
+    negate: false
+    context_mapping: {  }

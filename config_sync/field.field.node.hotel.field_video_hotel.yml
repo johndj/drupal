@@ -1,4 +1,4 @@
-uuid: 22ba80ca-2b1b-4167-a1a6-5804c7455fac
+uuid: b76c23fa-a7fd-4b66-b964-90de4ccc26b1
 langcode: en
 status: true
 dependencies:
@@ -11,15 +11,15 @@ id: node.hotel.field_video_hotel
 field_name: field_video_hotel
 entity_type: node
 bundle: hotel
-label: 'Video Hotel'
+label: 'Vidéo Hotel'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   allowed_providers:
-    youtube: youtube
     youtube_playlist: '0'
+    youtube: '0'
     vimeo: '0'
 field_type: video_embed_field

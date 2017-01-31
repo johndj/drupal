@@ -1,4 +1,4 @@
-uuid: 89f47eda-615e-4746-a2a5-343f383615aa
+uuid: 92ea6a5b-8e0b-4b53-8d08-b500bfd0591e
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ third_party_settings:
     parent: ''
 name: Hôtel
 type: hotel
-description: 'Hôtelde Tourisme'
+description: 'Hôtel de tourisme.'
 help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: true
+display_submitted: false

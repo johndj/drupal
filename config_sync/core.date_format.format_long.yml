@@ -1,8 +1,0 @@
-uuid: d7814d7b-2786-403e-b5c6-3fa112153689
-langcode: fr
-status: true
-dependencies: {  }
-id: format_long
-label: Format-long
-locked: false
-pattern: 'l j F Y à H:i'
