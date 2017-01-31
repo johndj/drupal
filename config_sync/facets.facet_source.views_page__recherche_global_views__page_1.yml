@@ -1,8 +1,0 @@
-uuid: null
-langcode: en
-status: true
-dependencies: {  }
-id: views_page__recherche_global_views__page_1
-name: 'views_page:recherche_global_views__page_1'
-filter_key: tags
-url_processor: query_string

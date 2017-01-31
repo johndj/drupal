@@ -1,7 +1,9 @@
-uuid: cdd216f8-076f-4130-ab27-a9e297721c63
+uuid: d4cc870e-64bf-4bcc-8524-0b54e27d07e8
 langcode: fr
 status: true
 dependencies:
+  module:
+    - block_visibility_groups
   theme:
     - bartik
 _core:
@@ -9,7 +11,7 @@ _core:
 id: bartik_local_tasks
 theme: bartik
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,9 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

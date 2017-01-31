@@ -1,7 +1,0 @@
-uuid: 4c1680f3-6ca9-4b2e-bd32-de12388ff22a
-langcode: en
-status: true
-dependencies: {  }
-id: visite_guidee
-label: 'Visite Guidée'
-behavior_plugins: {  }

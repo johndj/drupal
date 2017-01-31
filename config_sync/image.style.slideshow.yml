@@ -1,15 +1,14 @@
-uuid: 7a85ab7b-3da6-4c6b-ac8b-b4432734f82a
+uuid: 2f25cea4-60b7-4bf1-80a3-d62d4800ee0c
 langcode: en
 status: true
 dependencies: {  }
 name: slideshow
-label: Slideshow
+label: slideshow
 effects:
-  cca95f57-9452-4240-b5d5-722f9e2bfbbd:
-    uuid: cca95f57-9452-4240-b5d5-722f9e2bfbbd
-    id: image_scale
+  76447fd1-6bf9-4ca3-9e38-7de39eb63170:
+    uuid: 76447fd1-6bf9-4ca3-9e38-7de39eb63170
+    id: image_scale_and_crop
     weight: 1
     data:
-      width: 1394
-      height: 492
-      upscale: false
+      width: 450
+      height: 253

@@ -1,4 +1,4 @@
-uuid: 4fce545c-7d52-46ee-bd5f-450b2d0c0bc3
+uuid: 17069b31-5ad0-45a9-b520-378ebe98d6c8
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
     - core.entity_view_mode.node.search_index
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_gallery
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
@@ -44,7 +43,6 @@ content:
     label: hidden
 hidden:
   addtoany: true
-  field_gallery: true
   field_image: true
   langcode: true
   links: true

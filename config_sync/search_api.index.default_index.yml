@@ -1,4 +1,4 @@
-uuid: 3a92b423-7b9a-4502-8c84-1d30636cf3be
+uuid: 758e1b54-02f8-4d2f-935f-b2442e50db68
 langcode: fr
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - search_api
     - node
 _core:
-  default_config_hash: waKsdpebY9d2hMrPTDWG5Js-huaXAagctyxAgY2aLpU
+  default_config_hash: o9sHyAwcJKEfAW5G_DJIVy41T-nLhwQ487Go3kqrHrA
 id: default_index
 name: 'Default content index'
 description: 'Default content index created by the Database Search Defaults module'
@@ -94,14 +94,6 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: type
     type: string
-datasource_settings:
-  'entity:node':
-    bundles:
-      default: true
-      selected: {  }
-    languages:
-      default: true
-      selected: {  }
 processor_settings:
   aggregated_field:
     weights:
@@ -201,9 +193,17 @@ processor_settings:
     fields:
       - rendered_item
       - title
-tracker_settings:
-  default: {  }
 options:
   index_directly: true
   cron_limit: 50
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+tracker_settings:
+  default: {  }
 server: default_server
