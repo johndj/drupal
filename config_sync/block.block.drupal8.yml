@@ -1,0 +1,31 @@
+uuid: 2812d8f2-83da-4103-9b03-85c8752d0899
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:91de1913-20b1-4919-a950-f1ecc4893f2f'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - ive
+id: drupal8
+theme: ive
+region: drupal8
+weight: -11
+provider: null
+plugin: 'block_content:91de1913-20b1-4919-a950-f1ecc4893f2f'
+settings:
+  id: 'block_content:91de1913-20b1-4919-a950-f1ecc4893f2f'
+  label: 'Drupal 8'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

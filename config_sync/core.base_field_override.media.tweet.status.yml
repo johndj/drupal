@@ -1,0 +1,20 @@
+uuid: 362be8b2-aa71-4082-9a21-0e44973e0e49
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.tweet
+id: media.tweet.status
+field_name: status
+entity_type: media
+bundle: tweet
+label: 'Publishing status'
+description: 'A boolean indicating whether the media is published.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,28 @@
+uuid: b693534c-0230-45ed-b379-10a4afb1a36a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - webform
+  theme:
+    - myadminimal_theme
+id: webform_2
+theme: myadminimal_theme
+region: content
+weight: -5
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contct Form'
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,38 @@
+uuid: bb6d7040-386e-4293-aacc-0dec746d573c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_test
+  module:
+    - panels
+    - system
+id: page_test-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    eb11e110-63f7-4dbc-9e9c-cb24b3aa05f2:
+      id: system_powered_by_block
+      label: 'Powered by Drupal'
+      provider: system
+      label_display: '0'
+      region: bottom-left
+      weight: 0
+      uuid: eb11e110-63f7-4dbc-9e9c-cb24b3aa05f2
+      context_mapping: {  }
+  id: panels_variant
+  uuid: d6a022bf-52ff-45ef-818e-5fb1deea07c6
+  label: null
+  weight: 0
+  layout: 4_squares
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: page_test-panels_variant-0
+  builder: standard
+page: page_test
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

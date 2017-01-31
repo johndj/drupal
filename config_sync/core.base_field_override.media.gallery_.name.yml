@@ -1,0 +1,20 @@
+uuid: a6555134-064c-4385-954a-0b9ef85501fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.gallery_
+id: media.gallery_.name
+field_name: name
+entity_type: media
+bundle: gallery_
+label: 'Media name'
+description: 'The name of this media.'
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

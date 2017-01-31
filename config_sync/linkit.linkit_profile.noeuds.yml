@@ -1,0 +1,20 @@
+uuid: dddcde52-2a81-43f4-9b15-148486c70d3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: noeuds
+label: Noeuds
+description: 'Lien vers tous les contenu'
+attributes: {  }
+matchers:
+  d6b34e56-6713-4c5b-ad90-5b953e48dd31:
+    uuid: d6b34e56-6713-4c5b-ad90-5b953e48dd31
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+      include_unpublished: false

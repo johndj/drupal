@@ -1,0 +1,12 @@
+uuid: 3162bdc3-5d2a-4eb1-9f0e-c9e01e2916b2
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: y8t4RZdGS6VERGR7rBmSPFIG0fO5OZb87IB6P5A6Avw
+id: relationship
+label: Relationship
+options: "Parent: Parent\n'Significant Other': 'Significant Other'\nSibling: Sibling\nChild: Child\nFriend: Friend\n"

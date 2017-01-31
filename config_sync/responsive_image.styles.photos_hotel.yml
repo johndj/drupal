@@ -1,0 +1,30 @@
+uuid: f16d1794-3672-4a35-a462-ef1431236d92
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hotel_mobile
+    - image.style.hotel_narrow
+    - image.style.hotel_wide
+  theme:
+    - bartik
+id: photos_hotel
+label: 'Photos hotel'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hotel_wide
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hotel_narrow
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hotel_mobile
+breakpoint_group: bartik
+fallback_image_style: hotel_wide

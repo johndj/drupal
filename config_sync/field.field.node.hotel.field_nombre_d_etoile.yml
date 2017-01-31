@@ -1,0 +1,28 @@
+uuid: 523194cd-ad43-46fe-8161-10105ff14e24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre_d_etoile
+    - node.type.hotel
+    - taxonomy.vocabulary.nombre_des_etoiles
+id: node.hotel.field_nombre_d_etoile
+field_name: field_nombre_d_etoile
+entity_type: node
+bundle: hotel
+label: 'Nombre d''étoile'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nombre_des_etoiles: nombre_des_etoiles
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

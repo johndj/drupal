@@ -1,0 +1,183 @@
+uuid: 55f29ee5-a77b-49ab-a56f-883ab7e1f8db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hotel.body
+    - field.field.node.hotel.field_geolocalisation
+    - field.field.node.hotel.field_image
+    - field.field.node.hotel.field_nombre_d_etoile
+    - field.field.node.hotel.field_type_hotel
+    - field.field.node.hotel.field_video_hotel
+    - field.field.node.hotel.field_visite_guidee
+    - node.type.hotel
+  module:
+    - colorbox
+    - ds
+    - entity_reference_revisions
+    - field_group
+    - geolocation
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  field_group:
+    group_detail_hotel:
+      children:
+        - group_presentation
+        - group_galerie
+        - group_video
+        - group_visite_guidee
+        - group_acces
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        label: 'Detail hotel'
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: 'Detail hotel'
+    group_presentation:
+      children:
+        - body
+      parent_name: group_detail_hotel
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+      label: Presentation
+    group_galerie:
+      children:
+        - field_image
+      parent_name: group_detail_hotel
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: Galerie
+    group_video:
+      children:
+        - field_video_hotel
+      parent_name: group_detail_hotel
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: Vidéo
+    group_visite_guidee:
+      children:
+        - field_visite_guidee
+      parent_name: group_detail_hotel
+      weight: 23
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Visite Guidée'
+    group_acces:
+      children:
+        - field_geolocalisation
+      parent_name: group_detail_hotel
+      weight: 24
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Accés (carte)'
+id: node.hotel.default
+targetEntityType: node
+bundle: hotel
+mode: default
+content:
+  body:
+    type: text_summary_or_trimmed
+    weight: 22
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_geolocalisation:
+    type: geolocation_map
+    weight: 0
+    label: inline
+    settings:
+      title: ''
+      set_marker: '1'
+      info_text: ''
+      use_overridden_map_settings: 0
+      google_map_settings:
+        type: ROADMAP
+        zoom: '10'
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        disableDoubleClickZoom: 0
+        draggable: 1
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        disableAutoPan: 1
+        style: ''
+        preferScrollingToZooming: 0
+        gestureHandling: auto
+    third_party_settings: {  }
+  field_image:
+    type: colorbox
+    weight: 21
+    label: hidden
+    settings:
+      colorbox_node_style: ''
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_video_hotel:
+    weight: 21
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+  field_visite_guidee:
+    type: entity_reference_revisions_entity_view
+    weight: 24
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_nombre_d_etoile: true
+  field_type_hotel: true
+  langcode: true
+  links: true

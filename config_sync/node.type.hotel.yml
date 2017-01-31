@@ -1,0 +1,17 @@
+uuid: 89f47eda-615e-4746-a2a5-343f383615aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Hôtel
+type: hotel
+description: 'Hôtelde Tourisme'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
