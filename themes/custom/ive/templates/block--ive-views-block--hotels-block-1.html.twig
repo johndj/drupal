@@ -1,0 +1,19 @@
+{% extends "block.html.twig" %}
+
+{% block content %}
+  <form action="test.php" method="post">
+  <fieldset>
+    <legend>Titre</legend>
+     <div{{ content_attributes.addClass('content') }}>
+      {{ content }}
+     </div>
+     <ul>
+     <li>
+    <a href="{{ path('view.hotels.page_1') }}">{{ 'All Hotels'|t }}</a></li>
+    <li><a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': 6}) }}">{{ '5star hotels'|t }}</a></li>
+    </ul>
+  </fieldset>
+</form>
+{% endblock %}
+
+

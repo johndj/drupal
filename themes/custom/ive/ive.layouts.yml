@@ -1,0 +1,15 @@
+4_squares:
+  label: Four squares
+  category: My Layouts
+  icon: images/four-squares.png
+  template: templates/four-squares
+  css: css/four-squares.css
+  regions:
+    top-right:
+      label: top-right
+    top-left:
+      label: top-left
+    bottom-right:
+      label: bottom-right
+    bottom-left:
+      label: bottom-left

@@ -1,0 +1,21 @@
+.myadminimal .region-header{
+  display: none;
+}
+
+.myadminimal #toolbar-administration, #toolbar-administration * {
+    box-sizing: border-box;
+    background: black;
+}
+
+.myadminimal .toolbar .toolbar-menu .toolbar-menu a {
+    color: white;
+}
+
+.myadminimal h1,.myadminimal .heading-a {
+    font-weight: bold;
+    margin-bottom: 19px;
+    margin-bottom: 1rem;
+    font-size: 2.35em;
+    line-height: 1.2em;
+    color: black;
+}

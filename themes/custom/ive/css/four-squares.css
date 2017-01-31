@@ -1,0 +1,15 @@
+.four_squares{
+
+}
+
+.four_squares .top-right,
+.four_squares .top-left,
+.four_squares .bottom-right,
+.four_squares .bottom-left
+{
+	width: 33%;
+	background: #877eb5;
+	float: left;
+	margin: 10px;
+	min-height: 324px;
+}

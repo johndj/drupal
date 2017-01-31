@@ -1,0 +1,129 @@
+#header {
+    background-color: #fff;
+    background-image: none;
+    background-image: none;
+}
+.region-header, .region-header a, .region-header li a.is-active, .site-branding__text, .site-branding, .site-branding__text a, .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+    color: orange;
+    font-family: Georgia
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    margin: 0 0 0.5em;
+    border-bottom: 1px solid orange;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    color:orange;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.region-primary-menu .menu-item a.is-active, .region-primary-menu .menu-item--active-trail a {
+    background: orange;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.page-title {
+    color:orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.region-primary-menu .menu a {
+    color:orange;
+}
+
+.sidebar .block {
+   	background-color: #fff;
+   	border-color: #fff;
+   	border-style: none;
+}
+
+a, a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
+    color: #297fcc;
+}#header {
+    background-color: #fff;
+    background-image: none;
+    background-image: none;
+}
+.region-header, .region-header a, .region-header li a.is-active, .site-branding__text, .site-branding, .site-branding__text a, .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+    color: orange;
+    font-family: Georgia
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    margin: 0 0 0.5em;
+    border-bottom: 1px solid orange;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    color:orange;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.region-primary-menu .menu-item a.is-active, .region-primary-menu .menu-item--active-trail a {
+    background: orange;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.page-title {
+    color:orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.region-primary-menu .menu a {
+    color:orange;
+}
+
+.sidebar .block {
+   	background-color: #fff;
+   	border-color: #fff;
+   	border-style: none;
+}
+
+a, a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
+    color: #297fcc;
+}
+
+.layout-container {
+    /* max-width: 100%; */
+}
+
+#page-wrapper-page-qui .layout-container {
+	width:100%;
+	max-width: 100%;
+}
+
+#page-wrapper-page-qui .main-content {
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    width:100%;
+    margin: 0;
+}
+#left-article-teaser{
+	float:left;
+	width: 50%;
+}
+#right-article-teaser{
+	float: right;
+	width: 50%;
+}
+
+.view-same-height- .views-col{
+	background: #194e1d;
+	margin:5px;
+}
