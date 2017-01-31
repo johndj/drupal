@@ -1,0 +1,9 @@
+uuid: fc78eabc-2e49-43ee-9faf-c38fb16e83b9
+langcode: en
+status: true
+dependencies: {  }
+name: 'type john'
+vid: type_john
+description: ''
+hierarchy: 0
+weight: 0
