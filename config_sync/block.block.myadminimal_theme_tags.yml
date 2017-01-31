@@ -1,0 +1,34 @@
+uuid: f30430ba-8d49-4769-a7a0-2daee147dd5c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - facets.facet.tags
+  module:
+    - block_visibility_groups
+    - facets
+    - system
+  theme:
+    - myadminimal_theme
+id: myadminimal_theme_tags
+theme: myadminimal_theme
+region: header
+weight: -6
+provider: null
+plugin: 'facet_block:tags'
+settings:
+  id: 'facet_block:tags'
+  label: Tags
+  provider: facets
+  label_display: visible
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /global-search
+    negate: false
+    context_mapping: {  }

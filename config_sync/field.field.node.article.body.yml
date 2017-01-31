@@ -1,4 +1,4 @@
-uuid: 13adbc9a-fc9a-4714-ba2a-5b66713af9c4
+uuid: dad1023f-da2b-4f73-a703-0f896df26675
 langcode: fr
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: article
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

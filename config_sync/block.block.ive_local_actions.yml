@@ -1,4 +1,4 @@
-uuid: d6c5e7aa-be38-476c-bf8b-9f47c7058928
+uuid: efa5aefb-ad6b-418d-b20a-e2ee11845f07
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: ive_local_actions
 theme: ive
 region: content
-weight: -9
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:

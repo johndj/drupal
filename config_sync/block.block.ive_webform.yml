@@ -1,9 +1,10 @@
-uuid: 98d383e8-d568-49ea-b73c-a7af262b9d1b
+uuid: 921d4f8c-01d0-4251-a1ab-df9b3ff11698
 langcode: en
 status: true
 dependencies:
   module:
     - block_visibility_groups
+    - ctools
     - node
     - webform
   theme:
@@ -27,6 +28,13 @@ visibility:
     negate: false
     block_visibility_group: ''
     context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
   node_type:
     id: node_type
     bundles:

@@ -1,0 +1,23 @@
+uuid: c1ed8e7b-b3e8-4b70-930c-09e31a022c31
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: nombre_d_etoiles_aliases
+label: 'Nombre d''etoiles aliases'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'hotels/categorie/[term:name]'
+selection_criteria:
+  80185eb8-65b9-4e29-9d65-334261c68e4d:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      nombre_des_etoiles: nombre_des_etoiles
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 80185eb8-65b9-4e29-9d65-334261c68e4d
+selection_logic: and
+weight: -5
+relationships: {  }

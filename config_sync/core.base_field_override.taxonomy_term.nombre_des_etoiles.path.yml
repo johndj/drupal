@@ -1,0 +1,20 @@
+uuid: c1b8c182-0f17-4443-b816-2a52e73acb0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.nombre_des_etoiles
+  module:
+    - path
+id: taxonomy_term.nombre_des_etoiles.path
+field_name: path
+entity_type: taxonomy_term
+bundle: nombre_des_etoiles
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

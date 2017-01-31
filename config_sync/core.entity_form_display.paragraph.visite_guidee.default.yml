@@ -1,0 +1,51 @@
+uuid: 842003d3-7dd4-437c-9b91-dfe0ee69522a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.visite_guidee.field_description
+    - field.field.paragraph.visite_guidee.field_description_visite
+    - field.field.paragraph.visite_guidee.field_image_visite
+    - field.field.paragraph.visite_guidee.field_nom_du_lieu
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - image
+    - text
+id: paragraph.visite_guidee.default
+targetEntityType: paragraph
+bundle: visite_guidee
+mode: default
+content:
+  field_description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_description_visite:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_image_visite:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_nom_du_lieu:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+hidden:
+  created: true
+  status: true
+  uid: true

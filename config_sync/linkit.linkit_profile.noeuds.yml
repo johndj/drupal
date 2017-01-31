@@ -1,4 +1,4 @@
-uuid: 09283dec-9717-45a7-a606-0ddaf9ada4dd
+uuid: dddcde52-2a81-43f4-9b15-148486c70d3c
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,11 @@ dependencies:
     - node
 id: noeuds
 label: Noeuds
-description: 'lister le contenu'
+description: 'Lien vers tous les contenu'
 attributes: {  }
 matchers:
-  1d3ce8b4-d5e5-412f-b658-0c49ade9fd10:
-    uuid: 1d3ce8b4-d5e5-412f-b658-0c49ade9fd10
+  d6b34e56-6713-4c5b-ad90-5b953e48dd31:
+    uuid: d6b34e56-6713-4c5b-ad90-5b953e48dd31
     id: 'entity:node'
     weight: 0
     settings:

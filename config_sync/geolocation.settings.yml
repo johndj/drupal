@@ -1,7 +1,6 @@
-google_map_api_key: AIzaSyC_3T9Kaphpy4q7VXuRNSHKgdACIo6fH9Y
+google_map_api_key: ' AIzaSyD16nI-30-iYp30dT7TddkNT_Fv899Cd5M '
 google_map_custom_url_parameters:
-  libraries:
-    - AIzaSyCB6mu-QllOyFPNHarzTJhX01CmMF9Mt7I
+  libraries: {  }
   region: ''
   language: ''
   v: ''

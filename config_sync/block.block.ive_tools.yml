@@ -1,4 +1,4 @@
-uuid: 15e0d5a6-9956-4cf6-ac84-89afc2cd0f9a
+uuid: 97b8d7ea-9ede-4e5f-a126-8d80ac3e9ed5
 langcode: fr
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: ive_tools
 theme: ive
 region: sidebar_first
-weight: -15
+weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

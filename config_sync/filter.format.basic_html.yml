@@ -1,4 +1,4 @@
-uuid: 92b921a6-c75b-41c8-9868-1e73ec52bbc6
+uuid: 94d41ebe-5624-49c0-ba82-ffe4502c7a03
 langcode: fr
 status: true
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
 format: basic_html
-weight: -9
+weight: 0
 filters:
   filter_html:
     id: filter_html

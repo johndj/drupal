@@ -1,9 +1,7 @@
-uuid: fd1ea773-3570-4cc4-8a05-03b2672c5cae
+uuid: 92659ed6-53ba-4c49-8025-def815db7d9d
 langcode: fr
 status: true
 dependencies:
-  module:
-    - block_visibility_groups
   theme:
     - mybootstrap
 _core:
@@ -11,7 +9,7 @@ _core:
 id: mybootstrap_local_tasks
 theme: mybootstrap
 region: content
-weight: -8
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:
@@ -21,9 +19,4 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility:
-  condition_group:
-    id: condition_group
-    negate: false
-    block_visibility_group: ''
-    context_mapping: {  }
+visibility: {  }

@@ -1,4 +1,4 @@
-uuid: f8341274-62f9-4fa9-845b-9b1e00dea03b
+uuid: d3fcddd3-d963-4469-9a5f-401e233e040d
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: 2gt655xS9N1vWJCR-YhEWI4TWWkvG8PuYIr1YvSSYkA
 id: search_content
-label: 'Rechercher dans le contenu'
+label: 'Search content'
 module: views
 description: 'A search page preconfigured to search through the content of your site'
 tag: ''
@@ -20,7 +20,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Maître
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -35,10 +35,10 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Appliquer
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Réinitialiser
-          exposed_sorts_label: 'Trier par'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -50,16 +50,16 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: "‹\_précédent"
-            next: "suivant\_›"
+            previous: '‹ previous'
+            next: 'next ›'
           expose:
             items_per_page: false
-            items_per_page_label: 'Éléments par page'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
             items_per_page_options_all_label: '- Tout -'
             offset: false
-            offset_label: Décalage
+            offset_label: Offset
       style:
         type: default
       row:

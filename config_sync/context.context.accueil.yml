@@ -1,0 +1,103 @@
+uuid: 5a537c27-74b8-4c66-9f22-0718e7998ade
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+name: accueil
+label: Accueil
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: 0
+    uuid: f6a36847-2650-4d81-98dd-b56577c31a9c
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      0268e334-735e-4782-9a33-b6023fecad14:
+        id: 'system_menu_block:main'
+        label: 'Main navigation'
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        region: navigation
+        weight: '-10'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: 0268e334-735e-4782-9a33-b6023fecad14
+      12c9660e-ee32-41cd-9ab3-fdbc8d0185ef:
+        id: 'system_menu_block:account'
+        label: 'User account menu'
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        region: navigation_collapsible
+        weight: '0'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: 12c9660e-ee32-41cd-9ab3-fdbc8d0185ef
+      b5b2cb9c-a6bd-4785-97ce-ed79ad6bf506:
+        id: 'views_block:slideshow_accueil-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: header
+        weight: '-1'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: b5b2cb9c-a6bd-4785-97ce-ed79ad6bf506
+      d3edc1e3-1299-4551-9bb8-cc7e11d7f904:
+        id: 'system_menu_block:footer'
+        label: Footer
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        region: footer
+        weight: '0'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: d3edc1e3-1299-4551-9bb8-cc7e11d7f904
+      0acf4b5b-a546-4b26-9425-54fdaa66b655:
+        id: page_title_block
+        label: 'Page title'
+        provider: core
+        label_display: 0
+        region: content
+        weight: '-2'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: 0acf4b5b-a546-4b26-9425-54fdaa66b655
+      5e74c4fd-bfac-4d1a-a5fd-a52c5c762d00:
+        id: 'block_content:91de1913-20b1-4919-a950-f1ecc4893f2f'
+        label: 'Drupal 8'
+        provider: block_content
+        label_display: visible
+        status: true
+        info: ''
+        view_mode: full
+        region: header
+        weight: '-2'
+        context_mapping: {  }
+        theme: mybootstrap
+        unique: 0
+        uuid: 5e74c4fd-bfac-4d1a-a5fd-a52c5c762d00
+    id: blocks
+    saved: false
+    uuid: 90f47867-48fc-4f9f-a234-43aceebf3a93
+weight: 0

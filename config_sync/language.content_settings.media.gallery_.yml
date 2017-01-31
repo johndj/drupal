@@ -1,0 +1,16 @@
+uuid: 00285a3a-efa7-4aca-a472-160664873dad
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.gallery_
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: media.gallery_
+target_entity_type_id: media
+target_bundle: gallery_
+default_langcode: site_default
+language_alterable: false
