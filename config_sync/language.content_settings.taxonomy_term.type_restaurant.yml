@@ -1,0 +1,16 @@
+uuid: 050186db-2f04-450d-890a-082588692041
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_restaurant
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.type_restaurant
+target_entity_type_id: taxonomy_term
+target_bundle: type_restaurant
+default_langcode: site_default
+language_alterable: true
