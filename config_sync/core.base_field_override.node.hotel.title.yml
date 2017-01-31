@@ -1,4 +1,4 @@
-uuid: faa3f7a5-e188-47fc-b868-00ff21d4562b
+uuid: 7ec5e3ab-bd50-4b30-9b8b-cad78aff10e0
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ id: node.hotel.title
 field_name: title
 entity_type: node
 bundle: hotel
-label: 'Nom de l''hôtel'
+label: 'Nom de l''hotel'
 description: ''
 required: true
 translatable: true

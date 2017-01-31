@@ -1,10 +1,11 @@
-uuid: cd37597e-6280-4b6f-bc9b-f48de3da6bba
+uuid: 087362c3-b66f-439b-aaae-b2ca37a906d8
 langcode: fr
 status: true
 dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_gallery
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -39,6 +40,14 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_gallery:
+    weight: 31
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   field_image:
     type: image_image
     weight: 4

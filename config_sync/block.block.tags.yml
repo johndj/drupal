@@ -1,5 +1,5 @@
-uuid: 693560c0-9d1a-4c28-bf1f-0469da3a310d
-langcode: en
+uuid: 998555a7-1e76-4ad9-876d-aaf86f75691f
+langcode: fr
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ dependencies:
 id: tags
 theme: bartik
 region: sidebar_first
-weight: -13
+weight: 0
 provider: null
 plugin: 'facet_block:tags'
 settings:
@@ -29,6 +29,6 @@ visibility:
     context_mapping: {  }
   request_path:
     id: request_path
-    pages: '/RechercheGlobale*'
+    pages: /global-search
     negate: false
     context_mapping: {  }

@@ -1,4 +1,4 @@
-uuid: effaf3c0-915a-4aa8-a812-b98ec7c4e60e
+uuid: 1c4f2870-0671-42e0-9398-2566be6f93e7
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
 id: ive_views_block__blog_block_1
 theme: ive
 region: sidebar_first
-weight: -14
+weight: -8
 provider: null
 plugin: 'views_block:blog-block_1'
 settings:

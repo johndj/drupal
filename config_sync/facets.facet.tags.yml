@@ -1,9 +1,9 @@
-uuid: 6b2cb505-ee92-46e2-8918-c678bb229e9b
+uuid: 5909038f-6b04-4f59-a274-843476414e7e
 langcode: fr
 status: true
 dependencies:
   config:
-    - views.view.recherche_globale
+    - views.view.recherche_global_views
   module:
     - views
 id: tags
@@ -13,11 +13,11 @@ weight: 0
 min_count: 1
 show_only_one_result: false
 field_identifier: field_tags
-facet_source_id: 'views_page:recherche_globale__page_1'
+facet_source_id: 'views_page:recherche_global_views__page_1'
 widget:
   type: links
   config:
-    show_numbers: false
+    show_numbers: true
     soft_limit: 0
 query_operator: or
 use_hierarchy: false

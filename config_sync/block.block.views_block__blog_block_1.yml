@@ -1,4 +1,4 @@
-uuid: 5151bc52-62e0-4c3e-bc17-da0f7e418ff3
+uuid: 3e3e0dbd-5248-4b27-b2b4-c8be81e0f945
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
 id: views_block__blog_block_1
 theme: bartik
 region: sidebar_first
-weight: -9
+weight: 0
 provider: null
 plugin: 'views_block:blog-block_1'
 settings:

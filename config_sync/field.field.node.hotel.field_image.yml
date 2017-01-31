@@ -1,4 +1,4 @@
-uuid: cb110dbc-dd1e-4cff-8c82-cf60479ffabb
+uuid: c402ae9c-a3e3-41c3-ad10-d523ac1ccedc
 langcode: en
 status: true
 dependencies:
@@ -6,33 +6,40 @@ dependencies:
     - field.storage.node.field_image
     - node.type.hotel
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: node.hotel.field_image
 field_name: field_image
 entity_type: node
 bundle: hotel
-label: photos
+label: Photos
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
-  max_resolution: ''
-  min_resolution: ''
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
     height: null
-  file_directory: '[date:custom:Y]-[date:custom:m]'
-  max_filesize: ''
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

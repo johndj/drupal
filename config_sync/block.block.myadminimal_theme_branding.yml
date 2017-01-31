@@ -1,0 +1,25 @@
+uuid: 6b607852-7314-4f09-ac30-37ed65ef78e7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - myadminimal_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: myadminimal_theme_branding
+theme: myadminimal_theme
+region: header
+weight: -11
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

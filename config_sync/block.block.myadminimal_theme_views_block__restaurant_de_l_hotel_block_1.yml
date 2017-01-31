@@ -1,0 +1,38 @@
+uuid: f7ad354e-c0f2-4c3d-b5ac-7733773b5e84
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.restaurant_de_l_hotel
+  module:
+    - block_visibility_groups
+    - node
+    - views
+  theme:
+    - myadminimal_theme
+id: myadminimal_theme_views_block__restaurant_de_l_hotel_block_1
+theme: myadminimal_theme
+region: '-1'
+weight: -12
+provider: null
+plugin: 'views_block:restaurant_de_l_hotel-block_1'
+settings:
+  id: 'views_block:restaurant_de_l_hotel-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

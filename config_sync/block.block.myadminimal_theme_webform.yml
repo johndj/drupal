@@ -1,0 +1,44 @@
+uuid: d48359dd-8e9b-419d-bc20-5e799c43643d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - ctools
+    - node
+    - webform
+  theme:
+    - myadminimal_theme
+id: myadminimal_theme_webform
+theme: myadminimal_theme
+region: content
+weight: -6
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: reserver_une_table
+  default_data: ''
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

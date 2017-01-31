@@ -1,0 +1,8 @@
+uuid: f19bc6be-62e3-4029-a938-6e3b02a316db
+langcode: en
+status: true
+dependencies: {  }
+id: hotels
+label: Hôtels
+description: 'Hôtels Etolies list'
+locked: false

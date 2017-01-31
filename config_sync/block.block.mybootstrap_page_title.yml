@@ -1,9 +1,7 @@
-uuid: 740a7c3f-4e1d-401c-b2f3-ab0ea4c0b042
+uuid: e686dd1b-8b45-492c-81f5-a59ecc6bae8c
 langcode: fr
 status: true
 dependencies:
-  module:
-    - block_visibility_groups
   theme:
     - mybootstrap
 _core:
@@ -11,7 +9,7 @@ _core:
 id: mybootstrap_page_title
 theme: mybootstrap
 region: content
-weight: -10
+weight: -9
 provider: null
 plugin: page_title_block
 settings:
@@ -19,9 +17,4 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility:
-  condition_group:
-    id: condition_group
-    negate: false
-    block_visibility_group: ''
-    context_mapping: {  }
+visibility: {  }
