@@ -1,16 +1,16 @@
-uuid: c5a43133-de87-4294-b852-b6b94985862a
+uuid: da8d3432-f4e0-46bd-ac0b-b5fe9b681fb5
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.hotel.body
-    - field.field.node.hotel.field_emplacement
+    - field.field.node.hotel.field_geolocalisation
     - field.field.node.hotel.field_image
     - field.field.node.hotel.field_nombre_d_etoile
-    - field.field.node.hotel.field_par_video_hotel
-    - field.field.node.hotel.field_type_d_hotel
+    - field.field.node.hotel.field_type_hotel
     - field.field.node.hotel.field_video_hotel
+    - field.field.node.hotel.field_visite_guidee
     - node.type.hotel
   module:
     - text
@@ -21,20 +21,22 @@ bundle: hotel
 mode: teaser
 content:
   body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
+    type: text_trimmed
+    weight: 0
+    label: above
     settings:
       trim_length: 600
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
-  field_emplacement: true
+  field_geolocalisation: true
   field_image: true
   field_nombre_d_etoile: true
-  field_par_video_hotel: true
-  field_type_d_hotel: true
+  field_type_hotel: true
   field_video_hotel: true
+  field_visite_guidee: true
   langcode: true

@@ -1,9 +1,9 @@
-uuid: 0756cc0b-5a92-4f14-aa96-563f64f4c57d
-langcode: en
-status: false
+uuid: 2812d8f2-83da-4103-9b03-85c8752d0899
+langcode: fr
+status: true
 dependencies:
   content:
-    - 'block_content:basic:64d4df33-6372-43e9-9443-084846ba38cb'
+    - 'block_content:basic:91de1913-20b1-4919-a950-f1ecc4893f2f'
   module:
     - block_content
     - block_visibility_groups
@@ -11,12 +11,12 @@ dependencies:
     - ive
 id: drupal8
 theme: ive
-region: '-1'
-weight: -14
+region: drupal8
+weight: -11
 provider: null
-plugin: 'block_content:64d4df33-6372-43e9-9443-084846ba38cb'
+plugin: 'block_content:91de1913-20b1-4919-a950-f1ecc4893f2f'
 settings:
-  id: 'block_content:64d4df33-6372-43e9-9443-084846ba38cb'
+  id: 'block_content:91de1913-20b1-4919-a950-f1ecc4893f2f'
   label: 'Drupal 8'
   provider: block_content
   label_display: visible

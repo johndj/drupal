@@ -1,4 +1,4 @@
-uuid: f23cf040-9892-481f-8d73-769b70b217bc
+uuid: e3517426-b198-47c1-bc55-3a66729843af
 langcode: fr
 status: true
 dependencies:
@@ -20,7 +20,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Maître
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -250,7 +250,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: Bloc
     position: 1
     display_options:
       block_description: 'Recent comments'

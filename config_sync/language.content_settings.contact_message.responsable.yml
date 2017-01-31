@@ -1,0 +1,11 @@
+uuid: 324d91d8-021a-47e1-a13d-3c20ecbbb584
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.responsable
+id: contact_message.responsable
+target_entity_type_id: contact_message
+target_bundle: responsable
+default_langcode: site_default
+language_alterable: false

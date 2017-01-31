@@ -1,13 +1,14 @@
-uuid: dc7ec04a-0476-49a9-ab37-e8f0f142f3ef
+uuid: a6be09a6-5873-4eb7-8db1-f859e1d1aff2
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.restaurant.body
-    - field.field.node.restaurant.field_hotel
+    - field.field.node.restaurant.field_description_restaurant
+    - field.field.node.restaurant.field_hotel_restaurant
     - field.field.node.restaurant.field_image
-    - field.field.node.restaurant.field_touit
+    - field.field.node.restaurant.field_twi
     - node.type.restaurant
   module:
     - text
@@ -28,7 +29,8 @@ content:
     weight: 100
 hidden:
   addtoany: true
-  field_hotel: true
+  field_description_restaurant: true
+  field_hotel_restaurant: true
   field_image: true
-  field_touit: true
+  field_twi: true
   langcode: true

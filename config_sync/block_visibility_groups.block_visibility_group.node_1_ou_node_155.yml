@@ -1,0 +1,9 @@
+uuid: 14bd1cf4-c524-437d-874c-3917981ca9d7
+langcode: en
+status: true
+dependencies: {  }
+id: node_1_ou_node_155
+label: 'Node 1 ou node 155'
+logic: or
+conditions: {  }
+allow_other_conditions: false

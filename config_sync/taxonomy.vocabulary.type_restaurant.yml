@@ -1,9 +1,0 @@
-uuid: 956d5d83-6db2-4ce7-ae35-d4bcdcf70fe4
-langcode: en
-status: true
-dependencies: {  }
-name: 'type restaurant'
-vid: type_restaurant
-description: ''
-hierarchy: 0
-weight: 0

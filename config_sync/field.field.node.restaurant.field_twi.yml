@@ -1,0 +1,28 @@
+uuid: 9d83ee8c-6183-4447-bcbe-b42af15c9389
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twi
+    - media_entity.bundle.tweet
+    - node.type.restaurant
+id: node.restaurant.field_twi
+field_name: field_twi
+entity_type: node
+bundle: restaurant
+label: Twitter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      tweet: tweet
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,4 +1,4 @@
-uuid: 0e847f78-d532-42d6-b60a-38c61536b037
+uuid: f16d1794-3672-4a35-a462-ef1431236d92
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bartik
 id: photos_hotel
-label: 'pHOTOS HOTEL'
+label: 'Photos hotel'
 image_style_mappings:
   -
     breakpoint_id: bartik.wide
@@ -27,4 +27,4 @@ image_style_mappings:
     image_mapping_type: image_style
     image_mapping: hotel_mobile
 breakpoint_group: bartik
-fallback_image_style: hotel_mobile
+fallback_image_style: hotel_wide

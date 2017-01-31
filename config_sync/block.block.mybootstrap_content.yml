@@ -1,4 +1,4 @@
-uuid: 579ec028-3dd1-4b25-bf7e-4788140aa0a4
+uuid: e5013a31-9109-41e7-afe9-302325b6333f
 langcode: fr
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: mybootstrap_content
 theme: mybootstrap
 region: content
-weight: -7
+weight: -5
 provider: null
 plugin: system_main_block
 settings:

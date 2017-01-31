@@ -1,9 +1,7 @@
-uuid: 2a1cbbf7-de23-447a-a5fd-a202d0fda8ba
+uuid: 403cbd5b-c6e9-4869-994c-d0b8da242089
 langcode: fr
 status: true
 dependencies:
-  module:
-    - block_visibility_groups
   theme:
     - ive
 _core:
@@ -11,7 +9,7 @@ _core:
 id: ive_local_tasks
 theme: ive
 region: content
-weight: -8
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:
@@ -21,9 +19,4 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility:
-  condition_group:
-    id: condition_group
-    negate: false
-    block_visibility_group: ''
-    context_mapping: {  }
+visibility: {  }

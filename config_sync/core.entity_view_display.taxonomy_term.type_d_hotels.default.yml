@@ -1,0 +1,55 @@
+uuid: 5def8b0a-e39d-4aca-b066-0bc76ac3ac4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_d_hotels.field_picto_type_hotel
+    - taxonomy.vocabulary.type_d_hotels
+  module:
+    - ds
+    - image
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_stacked
+      path: modules/contrib/ds
+      library: layout_plugin/ds_2col_stacked
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          header: div
+          left: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      header:
+        - description
+        - field_picto_type_hotel
+id: taxonomy_term.type_d_hotels.default
+targetEntityType: taxonomy_term
+bundle: type_d_hotels
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_picto_type_hotel:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true

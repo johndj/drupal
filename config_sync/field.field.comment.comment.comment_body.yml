@@ -1,4 +1,4 @@
-uuid: ecd37f44-dea1-4640-9c45-1730da1e0912
+uuid: 256885b7-d4d2-463d-832a-cf63b9b7f2c8
 langcode: fr
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: comment
 label: Comment
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,16 @@
+uuid: 29be743e-4c40-4d74-a256-6cfa870375c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.visite_guidee
+target_entity_type_id: paragraph
+target_bundle: visite_guidee
+default_langcode: site_default
+language_alterable: false
